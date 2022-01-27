@@ -2,7 +2,7 @@ workflows:
   my-workflow:
     name: My workflow name
     instance_type: mac_mini
-    max_build_duration: 300
+    max_build_duration: 99
     environment:
       groups:
         - group_name
